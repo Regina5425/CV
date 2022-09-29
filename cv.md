@@ -21,20 +21,12 @@ Last year I decided to change my career and become a Web Developer, so I started
 * HTML5, CSS3
 * JavaScript
 * React
-* TypeScript
 * Git and GitHub
-* Bootstrap, SASS/SCSS, BEM
-* VSCode
+* SASS/SCSS, BEM
+* Bootstrap
 * Figma, Adobe Photoshop
 * Parcel, Webpack, gulp
 
-***
-## Code example
-```
-function multiply(a, b) {
-  return a * b;
-}
-```
 ***
 ## Courses:
 * [Code Basics HTML](https://ru.code-basics.com/languages/html)
