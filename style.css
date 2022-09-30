@@ -235,6 +235,7 @@ img {
 }
 
 .project__list {
+	margin-bottom: 15px;
 	font-size: 16px;
 }
 
@@ -255,6 +256,10 @@ img {
 
 .project__link:hover {
 	color: var(--color-yellow);
+}
+
+.project__link--all {
+	font-size: 14px;
 }
 
 .skills {
@@ -327,4 +332,27 @@ img {
 
 .lang__link:hover {
 	color: var(--color-yellow);
+}
+
+@media (max-width: 480px) {
+	.header {
+		flex-direction: column;
+	}
+
+	.header__title {
+		font-size: 36px;
+	}
+
+	.header__img {
+		width: 180px;
+		height: 180px;
+	}
+
+	.main {
+		display: block;
+	}
+
+	.skills__list {
+		grid-template-columns: 1fr;
+	}
 }
